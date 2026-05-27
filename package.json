@@ -1,0 +1,30 @@
+{
+  "name": "sistema-inventario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egarciadev1-dot/sistema-inventario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egarciadev1-dot/sistema-inventario/issues"
+  },
+  "homepage": "https://github.com/egarciadev1-dot/sistema-inventario#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
